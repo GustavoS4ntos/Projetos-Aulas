@@ -6,4 +6,4 @@
 --- Atualizado xx/xx/xx ---
 
 
- <a href="https://gustavos4ntos.github.io/Projetos-Aulas/">PÁGINA COM TODOS MEUS PROJETOS E AULAS</a>
+ <a href="https://gustavos4ntos.github.io/Projetos-Aulas">PÁGINA COM TODOS MEUS PROJETOS E AULAS</a>
