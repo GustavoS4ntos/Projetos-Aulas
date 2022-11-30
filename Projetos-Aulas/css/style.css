@@ -8,10 +8,18 @@ box-sizing: border-box;
 
 }
 
-.divprincipal{
+body{
+
+
+
+}
+
+
+
+header{
 
     display: flex;
-
+ 
 }
 
 .logo{
@@ -21,13 +29,14 @@ padding-top: 2vh;
 font-family: 'Lobster', cursive;
 width: 50%;
 font-size: 50px;
-border: 1px solid red;
+color: #696969;
+
 
 }
 
 .navbar{
 width: 50%;
-    border: 1px solid red;
+    
 
 }
 
@@ -35,33 +44,35 @@ width: 50%;
 
 display: flex;
 flex-wrap: wrap;
-justify-content: center;
+justify-content:center;
 text-align: center;
-border: 1px solid red;
-padding: 10px;
+padding: 20px;
 list-style: none;
 text-transform: uppercase;
 }
 
 .projetos a{
-background: orange;
-color: black;
-padding: 5px 5px 5px 5px;
+width: 100%;
+color: #696969;
+padding: 20px ;
 text-decoration: none;
 font-size: 15px;
 
 }
 
-.minisub{
+
+.projetos a:hover{
 
 
-
+background-color: #DCDCDC;
 
 }
 
-.textosub{
 
-border: 1px solid red;
+
+.textosub{
+color: #696969;
+
 padding: 20px;
 font-family: 'Dancing Script', cursive;
 
@@ -72,7 +83,7 @@ font-family: 'Dancing Script', cursive;
 background-position: center;
 background-size: cover;
 width: 10%;
-border: 1px solid red;
+
 
 }
 
@@ -83,40 +94,105 @@ justify-content: center;
 
 }
 
+/*main*/
+
 .menu{
 
 display: flex;
 
-}
-
-.menu1{
-
-display: block;
-width: 70%;
-height: 50vh;
-border: 1px solid orange;
 
 }
+
+
 
 .selection1{
-    width: 100%;
-   height: 50vh;
-    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 100vh;
+  
+
     
     }
 
-.selection2{
+.selection1 figure{
+display: flex;
+justify-content: center;
 
-    width: 100%;
-    height: 50vh;
-    border: 1px solid green;
-    
-    }
+}
+
+
+.selection1 img{
+
+
+width: 250px;
+height: 350px;
+
+
+}
+
+
+.selection1 h2{
+display: flex;
+justify-content: center;
+font-size: 25px;
+text-transform: uppercase;
+
+border: 2px  solid #696969;
+border-radius: 0px 20px 20px 20px;
+font-family: 'Roboto', sans-serif;
+padding: 10px;
+color: #696969;
+
+
+
+}
+
+
+
 
 .aside1{
 
 width: 30%;
-background-color: aqua;
+
 height: 100vh;
-border: 1px solid red;
+padding: 20px;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+aside img{
+
+width: 150px;
+height: 100;
+
+
+}
+
+aside h2{
+
+color: #696969;
+text-transform: uppercase;
+padding: 5px;
+font-size: 40px;
+
+
+}
+aside h3{
+
+text-transform: uppercase;
+color: #696969;
+font-size: 30px;
+padding: 3px;
+
+}
+
+aside p{
+
+font-size: 20px;
+
 }
