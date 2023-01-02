@@ -167,9 +167,65 @@ color: #696969;
 .sectionList{
 
 display: flex;
+justify-content:center;
 
 
 }
+
+.sectionList ul{
+
+    list-style: none;
+ 
+
+
+}
+
+.sectionList li{
+
+    padding: 10px;
+
+}
+
+.sectionList li:hover{
+
+background-color: gray;
+
+border-radius: 5px 10px 5px 10px;
+
+}
+
+.sectionList li a {
+    
+    
+    text-decoration: none;
+    color: #696969;
+
+}
+
+.sectionList li a:hover {
+
+    color: white;
+
+}
+
+.list1{
+
+padding: 20px;
+
+}
+
+.list2{
+
+    padding: 20px;
+
+}
+
+.list3{
+
+    padding: 20px;
+
+}
+
 
 
 
