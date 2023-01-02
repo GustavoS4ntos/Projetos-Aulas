@@ -103,34 +103,44 @@ border: 1px solid red;
 /*main*/
 
 .menu{
-
+width: 100%;
+height: auto;
 display: flex;
+border: 1px solid #696969;
 
+}
+
+.sectionPrincipal{
+
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    
 
 }
 
 
 
-.selection1{
+.section1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
-    width: 60%;
-    height: 100vh;
+    padding-top: 10px;
+
+   
   
 
     
     }
 
-.selection1 figure{
+.section1 figure{
 display: flex;
-justify-content: center;
+align-items: center;
 
 }
 
 
-.selection1 img{
+.section1 img{
 
 width: 250px;
 height: 350px;
@@ -139,12 +149,11 @@ height: 350px;
 }
 
 
-.selection1 h2{
+.section1 h2{
 display: flex;
 justify-content: center;
 font-size: 25px;
 text-transform: uppercase;
-
 border: 2px  solid #696969;
 border-radius: 0px 20px 20px 20px;
 font-family: 'Roboto', sans-serif;
@@ -160,14 +169,13 @@ color: #696969;
 
 .aside1{
 
-width: 40%;
-
+width: 30%;
 height: 100vh;
 padding: 20px;
-
 display: flex;
 flex-direction: column;
 align-items: center;
+border: 1px solid red;
 
 }
 
